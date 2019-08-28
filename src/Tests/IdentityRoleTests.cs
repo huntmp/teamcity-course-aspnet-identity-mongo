@@ -33,7 +33,7 @@
 		{
 			var name = "admin";
 
-			var role = new IdentityRole(Errorname);
+			var role = new IdentityRole(name);
 
 			Expect(role.Name, Is.EqualTo(name));
 		}
